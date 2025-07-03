@@ -1,0 +1,21 @@
+h1{
+    text-align:left;
+    padding: 30px;
+    font-size: 70px;
+    font-weight: bold;
+
+}
+body{
+    background-color: lightgoldenrodyellow;
+}
+button{
+    margin:50px 90px 50px;
+    padding: 50px 500px 50px;
+}
+p{
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+div{
+    padding:50 px;
+}
