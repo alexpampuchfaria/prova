@@ -30,10 +30,10 @@ function cadastro() {
 
 
   if (media1 > 15) {
-    alert("vcs não poderão jogar o campeonato");
+    alert("vcs não poderão jogar o campeonato, porvavor coloque um time valido;");
 
   
-  mostrarHTML.innerHTML = `vocês estão eliminado do campeonato. motivo:sua media de idade eceder o limite colocado`;
+ alert("motivo:sua media de idade eceder o limite colocado");
 
     while (media >= 15 || media === 0) {
     mostraHTML.innerHTML = "";
@@ -88,7 +88,10 @@ function cadastro() {
   jhonHTML.innerHTML += `<p>Média de idade: ${media2.toFixed(2)}</p><hr>`;
 
   if (media2 > 15) {
-    alert("vcs não poderão jogar o campeonato");
+  
+     alert("vcs não poderão jogar o campeonato, porvavor coloque um time valido;");
+ alert("motivo:sua media de idade eceder o limite colocado");
+
   } else {
     alert("o campeonato vai começar em 00/00/0000");
   }
@@ -116,7 +119,8 @@ function cadastro() {
   frontHTML.innerHTML += `<p>Média de idade: ${media3.toFixed(2)}</p><hr>`;
 
   if (media3 > 15) {
-    alert("vcs não poderão jogar o campeonato");
+      alert("vcs não poderão jogar o campeonato, porvavor coloque um time valido;");
+ alert("motivo:sua media de idade eceder o limite colocado");
   } else {
     alert("o campeonato vai começar em 00/00/0000");
   }
@@ -144,12 +148,14 @@ function cadastro() {
   leHTML.innerHTML += `<p>Média de idade: ${media4.toFixed(2)}</p><hr>`;
 
   if (media4 > 15) {
-    alert("vcs não poderão jogar o campeonato");
+      alert("vcs não poderão jogar o campeonato, porvavor coloque um time valido;");
+ alert("motivo:sua media de idade eceder o limite colocado");
+
   } else {
     alert("o campeonato vai começar em 00/00/0000");
   }
 
   alert("Cadastro finalizado! 4 times cadastrados com sucesso.");
 
-  alert("desculpe mais é só quatro times");
+  alert("desculpe mais é só são quatro times");
 }
